@@ -39,7 +39,7 @@ header .logo__name{
 @media (max-width: 500px){
     header .logo__name{
         font-size: 4em;
-        line-height: 70px;
+        line-height: 100px;
     }
 }
 header .tagline{
