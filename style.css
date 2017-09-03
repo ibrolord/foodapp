@@ -36,6 +36,12 @@ header .logo__name{
     vertical-align: middle;
     color: #000;
 }
+@media (max-width: 500px){
+    header .logo__name{
+        font-size: 4em;
+        line-height: 70px;
+    }
+}
 header .tagline{
     font-size: 1.2em;
     letter-spacing: 8px;
@@ -51,15 +57,16 @@ header .tagline{
     padding-top: 20px;
     padding-bottom: 20px;
 }
-#shop-area .shop-image{
-    border-box: 1px solid #ccc;
+#shop-area .shop-image img{
+    width: 100%;
+    border-radius: 5px;
 }
 #shop-area ul{
     list-style-type: none;
     margin-bottom: 20px;
 }
 #shop-area ul li{
-    line-height: 50px;
+    line-height: 40px;
     vertical-align: middle;
     font-size: 1.2em;
 }
