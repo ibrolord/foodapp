@@ -70,7 +70,7 @@ header .tagline{
     vertical-align: middle;
     font-size: 1.2em;
 }
-#shop-area a{
+#shop-area .shop-info a{
     padding: 10px 15px;
     border: 2px solid #000;
     color: #000;
@@ -78,7 +78,7 @@ header .tagline{
     font-size: 0.8em;
     display: inline-block;
 }
-#shop-area a:hover{
+#shop-area .shop-info a:hover{
     padding: 10px 15px;
     border: 2px solid #000;
     background-color: #000;
