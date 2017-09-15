@@ -6,6 +6,8 @@ a:hover{
 }
 body{
     font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
 }
 /*Custom style for the page */
 .alert {
@@ -97,6 +99,9 @@ footer ul li{
     display: inline-block;
     padding: 10px 20px;
 }
+footer ul li a{
+    color: #000;
+}
 footer h5{
     color: #ccc;
 }
@@ -110,4 +115,80 @@ ul, menu, dir {
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
   -webkit-padding-start: 0px;
+  -moz-padding-start: 0px;
+  -o-padding-start: 0px;
+}
+/* Menu Page Style */
+nav{
+    background-color: #000;
+    color: #fff;
+    padding: 0 30px;
+}
+nav .brand{
+    line-height: 50px;
+    vertical-align: middle;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+#menu header{
+    text-align: left;
+}
+#menu header .breadcrumb{
+    padding: 7px 30px;
+}
+#menu #shop-area .row{
+    border-top: 0;
+    padding-bottom: 20px;
+    margin-top: -30px;
+}
+#menu .fa{
+    margin-right: 7px;
+}
+#menu #shop-area .fa-green{
+    font-size: 0.7em;
+    color: #0f0;
+}
+
+#menu-list img{
+    width: 100%;
+    height: 150px;
+}
+#menu .tab-content{
+    padding: 20px;
+}
+#menu-list .menu-item{
+    border: 1px solid #ccc;
+    min-height: 170px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+#menu-list .menu-item h4{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#reviews .review-box{
+    position: relative;
+    background-color: #fff;
+    border-top-left-radius: 0;
+}
+#reviews .review-box:before{
+    content: "";
+    height: 20px;
+    width: 20px;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+    position: absolute;
+    top: 4px;
+    left: -10px;
+    transform: rotate(45deg);
+    z-index: -9999;
+}
+#info img{
+    width: 100%;
+    height: 150px;
+}
+#info .table tr{
+    border-top: 0;
+    border-bottom: 1px solid #ccc;
 }
