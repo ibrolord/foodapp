@@ -168,6 +168,14 @@ nav .brand{
     margin-bottom: 0;
     font-weight: bold;
 }
+#menu-list .nav-tabs .nav-item{
+    text-align: center;
+    width: 33%;
+}
+#menu-list .nav-tabs > li.active > a,#menu-list .nav-tabs > li.active > a:focus,#menu-list .nav-tabs > li.active > a:hover{
+    border: 0;
+    border-bottom: 4px solid #ccc;
+}
 #gallery img{
     width: 100px;
     height: 100px;
