@@ -148,34 +148,41 @@ nav .brand{
     font-size: 0.7em;
     color: #0f0;
 }
-
-#menu-list img{
-    width: 100%;
-    height: 150px;
-}
 #menu .tab-content{
     padding: 20px;
 }
-#menu-list .menu-item{
-    border: 1px solid #ccc;
-    min-height: 170px;
-    padding: 10px;
-    margin-top: 10px;
-    border-radius: 5px;
-}
-#menu-list .menu-item h4{
-    margin-top: 5px;
-    margin-bottom: 0;
-    font-weight: bold;
-}
-#menu-list .nav-tabs .nav-item{
-    text-align: center;
-    width: 33%;
-}
-#menu-list .nav-tabs > li.active > a,#menu-list .nav-tabs > li.active > a:focus,#menu-list .nav-tabs > li.active > a:hover{
+
+#menu-list .panel,#menu-list .panel-group{
     border: 0;
-    border-bottom: 4px solid #ccc;
+    border-radius: 0;
 }
+#menu-list .panel-heading,#menu-list .panel-body,#menu-list .col-md-12,#menu-list .col-md-6,#menu-list .col-md-3{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#menu-list .panel-body .col-md-12{
+    margin-top: 10px;
+    clear: both;
+}
+#menu-list .panel-body a{
+    float: right;
+    
+}
+
+#menu-list .panel-heading a:after {
+    font-family:'Glyphicons Halflings';
+    content:"\e114";
+    float: right;
+    color: grey;
+  }
+#menu-list .panel-heading a.collapsed:after {
+content:"\e080";
+}
+#menu-list .panel-body img{
+    width: 100%;
+    height: 100px;
+}
+
 #gallery img{
     width: 100px;
     height: 100px;
@@ -205,4 +212,21 @@ nav .brand{
 #info .table tr{
     border-top: 0;
     border-bottom: 1px solid #ccc;
+}
+@media(max-width: 700px){
+    #menu .tab-content{
+        padding: 10px 0;
+    }
+    #menu-list .panel-body,#menu-list .col-md-12{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #menu-list .panel-body img{
+        width: 100%;
+        height: 50px;
+    }
+    #menu-list .panel-body .col-md-12{
+        margin-top: 10px;
+        clear: both;
+    }
 }
